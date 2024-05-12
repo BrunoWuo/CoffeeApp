@@ -1,4 +1,5 @@
 # PROJETO COFFEE APP
+<div align="center"><img src="https://github.com/BrunoWuo/CoffeeApp/blob/main/CoffeeApp.png"></div>
 
 ### Desenvolvido com React Native em Expo  - Para uso nas aulas de Mobile
 
