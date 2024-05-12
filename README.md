@@ -2,7 +2,8 @@
 <div align="center"><img src="https://github.com/BrunoWuo/CoffeeApp/blob/main/CoffeeApp.png" width=640></div>
 
 ### Desenvolvido com React Native em Expo  - Para uso nas aulas de Mobile
-
+** Bottom Tabs Navigator - https://reactnavigation.org/docs/bottom-tab-navigator
+** Arquivo JSON
 
 #### Lista de Arquivos
 Baixar o arquivo da aula correspondente
