@@ -1,3 +1,3 @@
-#PROJETO COFFEE APP
+# PROJETO COFFEE APP
 
-##Desenvolvido em Expo 
+## Desenvolvido com React Native em Expo 
