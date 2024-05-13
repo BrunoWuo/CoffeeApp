@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, TouchableOpacity } from "react-native";
+import React from "react";
 
-export default function Home() {
+export default function Home({ navigation }) {
   return (
     <View>
-      <Text>Home</Text>
+      <Text>Escolha o Seu Café</Text>
+      <TouchableOpacity onPress={() => navigation.navigate("Initial")}>
+        <Text>Sair</Text>
+      </TouchableOpacity>
     </View>
-  )
+  );
 }
