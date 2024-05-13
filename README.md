@@ -1,7 +1,7 @@
 # PROJETO COFFEE APP
 <div align="center"><img src="https://github.com/BrunoWuo/CoffeeApp/blob/main/CoffeeApp.png" width=640></div>
 
-### Desenvolvido com React Native em Expo  - Para uso nas aulas de Mobile
+### Desenvolvido com React Native em Expo  - Para uso nas aulas de Mobile Senac Matinhos
 * Stack Navigator - https://reactnavigation.org/docs/stack-navigator
 * Bottom Tabs Navigator - https://reactnavigation.org/docs/bottom-tab-navigator
 * Arquivo JSON
