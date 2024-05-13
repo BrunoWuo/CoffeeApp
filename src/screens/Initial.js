@@ -1,5 +1,5 @@
-import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 import React from "react";
+import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
 export default function Initial({ navigation }) {
   return (
@@ -9,21 +9,22 @@ export default function Initial({ navigation }) {
         source={require("../../assets/img/initial.png")}
       />
 
-      <View style={styles.txtTitulo}>
-        <Text style={styles.txtMelhor}>O Melhor</Text>
-        <Text style={styles.txtCafe}> Café</Text>
-        <Text style={styles.txtMelhor}> na cidade!</Text>
+      <View style={styles.caixaTitulo}>
+        <Text style={styles.Titulo}>
+          O Melhor <Text style={styles.tituloDestaque}>Café</Text>{" "}
+        </Text>
+        <Text style={styles.Titulo}>na cidade!</Text>
       </View>
-
-      <View style={styles.btnContainer}>
-        <TouchableOpacity style={styles.btnCadastrar}>
-          <Text style={styles.txtCadastrar}>Cadastrar</Text>
+      <View style={styles.caixaBotoes}>
+        <TouchableOpacity style={styles.btnCadastro}>
+          {" "}
+          Cadastrar
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.btnEntrar}
           onPress={() => navigation.navigate("TabNavigator")}
         >
-          <Text style={styles.txtEntrar}>Entrar</Text>
+          Entrar
         </TouchableOpacity>
       </View>
     </View>
@@ -33,53 +34,48 @@ export default function Initial({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "space-around",
-    alignItems: "Center",
+    backgroundColor: "#fff",
   },
   imgInitial: {
     width: 431,
     height: 412,
   },
-  txtTitulo: {
+  caixaTitulo: {
     alignItems: "center",
+    padding: 15,
   },
-  txtMelhor: {
-    color: "#000000",
-    fontSize: 32,
+  Titulo: {
+    fontSize: 30,
   },
-  txtCafe: {
-    fontWeight: "700",
-    fontSize: 32,
+  tituloDestaque: {
     color: "#B98875",
+    fontWeight: "bold",
   },
-  btnContainer: {
+  caixaBotoes: {
     flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-evenly",
+    justifyContent: "space-around",
+    paddingTop: 30,
+    paddingHorizontal: 35,
   },
-  btnCadastrar: {
-    borderRadius: 30,
+  btnCadastro: {
     backgroundColor: "#B98875",
-    borderStyle: "solid",
-    borderColor: "#B98875",
-    borderWidth: 2,
-    paddingHorizontal: 40,
-    paddingVertical: 15,
-  },
-  txtCadastrar: {
-    color: "#fff",
-    fontSize: 22,
+    borderRadius: 24,
+    color: "white",
+    width: 135,
+    height: 45,
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: 20,
   },
   btnEntrar: {
-    borderRadius: 30,
-    borderStyle: "solid",
+    width: 135,
+    height: 45,
+    borderRadius: 24,
     borderColor: "#B98875",
     borderWidth: 2,
-    paddingHorizontal: 40,
-    paddingVertical: 15,
-  },
-  txtEntrar: {
+    alignItems: "center",
+    justifyContent: "center",
     color: "#B98875",
-    fontSize: 22,
+    fontSize: 20,
   },
 });
