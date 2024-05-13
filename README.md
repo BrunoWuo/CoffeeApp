@@ -3,7 +3,7 @@
 
 ### Desenvolvido com React Native em Expo  - Para uso nas aulas de Mobile
 * Stack Navigator - https://reactnavigation.org/docs/stack-navigator
-* Bottom Tabs Navigator - (https://reactnavigation.org/docs/bottom-tab-navigator)
+* Bottom Tabs Navigator - https://reactnavigation.org/docs/bottom-tab-navigator
 * Arquivo JSON
 
 #### Lista de Arquivos
