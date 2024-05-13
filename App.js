@@ -1,8 +1,8 @@
-import TabNavigator from './src/routes/TabNavigator';
+import StackNavigator from './src/routes/StackNavigator';
 
 export default function App() {
   return (
-    <TabNavigator/>
+    <StackNavigator/>
   );
 }
 
