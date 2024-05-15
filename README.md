@@ -12,7 +12,7 @@ Baixar o arquivo da aula correspondente
 
 * 01 - Estrutura Base do Projeto - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/01EstruturaBase.zip)
 * 02 - Estrutura Stack / Bottom Tabs Navigator - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/02Navegacao.zip)
-* 03 - Tela Inicial -  [Em breve]
+* 03 - Tela Inicial - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/03TelaInitial.zip)
 
 
 
