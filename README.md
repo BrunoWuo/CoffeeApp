@@ -16,6 +16,7 @@ Baixar o arquivo da aula correspondente
 ```sh
 # Instale as dependências do projeto e inicie:
 $ npm install
+$ npx expo start
 ```
 
 * 02 - Estrutura Stack / Bottom Tabs Navigator - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/02Navegacao.zip)
