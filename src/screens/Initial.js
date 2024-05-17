@@ -10,8 +10,8 @@ export default function Initial({ navigation }) {
       />
 
       <View style={styles.txtTitulo}>
-        <Text style={styles.txtMelhor}>O Melhor <Text style={styles.txtCafe}> Café</Text></Text>
-        
+        <Text style={styles.txtMelhor}>O Melhor</Text>
+        <Text style={styles.txtCafe}> Café</Text>
         <Text style={styles.txtMelhor}> na cidade!</Text>
       </View>
 
@@ -33,9 +33,8 @@ export default function Initial({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:"#FFF",
     justifyContent: "space-around",
-    
+    alignItems: "Center",
   },
   imgInitial: {
     width: 431,
@@ -55,31 +54,29 @@ const styles = StyleSheet.create({
   },
   btnContainer: {
     flexDirection: "row",
-    justifyContent:"space-evenly"    ,
-    
+    alignItems: "center",
+    justifyContent: "space-evenly",
   },
   btnCadastrar: {
-    borderRadius: 24,
+    borderRadius: 30,
     backgroundColor: "#B98875",
     borderStyle: "solid",
     borderColor: "#B98875",
     borderWidth: 2,
     paddingHorizontal: 40,
-    paddingVertical: 10,
-
-    
+    paddingVertical: 15,
   },
   txtCadastrar: {
     color: "#fff",
     fontSize: 22,
   },
   btnEntrar: {
-    borderRadius: 24,
+    borderRadius: 30,
     borderStyle: "solid",
     borderColor: "#B98875",
     borderWidth: 2,
     paddingHorizontal: 40,
-    paddingVertical: 10,
+    paddingVertical: 15,
   },
   txtEntrar: {
     color: "#B98875",

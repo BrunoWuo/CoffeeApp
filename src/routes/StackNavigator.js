@@ -12,8 +12,9 @@ export default function StackNavigator() {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="Initial" component={Initial} />
       <Stack.Screen name="TabNavigator" component={TabNavigator} />
+      <Stack.Screen name="Initial" component={Initial} />
+      
     </Stack.Navigator>
   );
 }
