@@ -17,6 +17,7 @@ Baixar o arquivo da aula correspondente
 ```sh
 # Dependências
 $ expo install
+```
 
 * 02 - Estrutura Stack / Bottom Tabs Navigator - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/02Navegacao.zip)
 * 03 - Tela Inicial - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/03TelaInitial.zip)
