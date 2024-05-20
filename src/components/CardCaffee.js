@@ -1,15 +1,15 @@
-import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet } from "react-native";
 import React from "react";
 
-export default function CardCaffee() {
+export default function CardCaffee({ escolha }) {
   return (
-    <TouchableOpacity style={styles.caixas}>
+    <View style={styles.caixas}>
       <View style={styles.desc}>
         <Image
-          source={require("../../assets/img/espresso.png")}
+          source={{ uri: escolha.imagem }}         
           style={styles.fotos}
         />
-        <Text style={styles.text}>Espresso</Text>
+        <Text style={styles.text}>{escolha.titulo}</Text>
       </View>
       <View>
         <Image
@@ -17,7 +17,7 @@ export default function CardCaffee() {
           style={styles.flecha}
         />
       </View>
-    </TouchableOpacity>
+    </View>
   );
 }
 

@@ -5,6 +5,7 @@ import Home from "../screens/Home";
 import Local from "../screens/Local";
 import Cart from "../screens/Cart";
 import User from "../screens/User";
+import Details from "../screens/Details";
 
 const Tab = createBottomTabNavigator();
 
@@ -48,7 +49,7 @@ export default function TabNavigator() {
         component={Cart}
         options={{
           tabBarActiveTintColor: "#B98875",
-          tabBarLabel: "Compras",
+          tabBarLabel: "Pedidos",
           tabBarIcon: () => (
             <Image
               style={{ width: 24, height: 24 }}
@@ -69,6 +70,14 @@ export default function TabNavigator() {
               source={require("../../assets/img/user.png")}
             />
           ),
+        }}
+      />
+
+      <Tab.Screen
+        name="Details"
+        component={Details}
+        options={{
+          tabBarButton: () => null,
         }}
       />
     </Tab.Navigator>

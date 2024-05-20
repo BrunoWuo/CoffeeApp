@@ -14,7 +14,6 @@ export default function StackNavigator() {
     >
       <Stack.Screen name="TabNavigator" component={TabNavigator} />
       <Stack.Screen name="Initial" component={Initial} />
-      
     </Stack.Navigator>
   );
 }

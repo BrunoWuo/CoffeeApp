@@ -5,17 +5,31 @@ import {
   TouchableOpacity,
   ScrollView,
   Image,
+  FlatList,
 } from "react-native";
 import CardCaffee from "../components/CardCaffee";
 
-export default function Home() {
+import tiposCafes from "../data/dbcafe";
+
+
+export default function Home({ navigation }) {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.caixaTitulo}>
         <Text style={styles.Titulo}> Escolha o seu Café </Text>
       </View>
       <View>
-        <CardCaffee />
+        <FlatList
+          data={tiposCafes}
+          keyExtractor={(item) => String(item.id)}
+          renderItem={({ item }) => (
+            <TouchableOpacity
+              onPress={() => navigation.navigate("Details", { escolha: item })}
+            >
+              <CardCaffee escolha={item} />
+            </TouchableOpacity>
+          )}
+        />
       </View>
     </ScrollView>
   );
@@ -47,5 +61,4 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
   },
-
 });
