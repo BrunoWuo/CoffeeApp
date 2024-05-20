@@ -22,7 +22,8 @@ $ npx expo start
 * 02 - Estrutura Stack / Bottom Tabs Navigator - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/02Navegacao.zip)
 * 03 - Tela Inicial - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/03TelaInitial.zip)
 * 04 - Tela Home - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/04TelaHome.zip)
-* 05 - Tela Detalhes / Componente CardCafe - [Em breve]
+* 05 - Tela Home / Componente CardCafe - [Em breve] 
+* 06 - Tela Home (Flatlist) / Componente CardCafe acessando o JSON - [Em breve]
 
   
 
