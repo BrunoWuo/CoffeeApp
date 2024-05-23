@@ -23,7 +23,7 @@ $ npx expo start
 * 03 - Tela Inicial - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/03TelaInitial.zip)
 * 04 - Tela Home - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/04TelaHome.zip)
 * 05 - Tela Home / Componente CardCafe - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/05TelaHomeCard.zip)
-* 06 - Tela Home (Flatlist) / Componente CardCafe acessando o JSON - [Em breve]
+* 06 - Tela Home (Flatlist) / Componente CardCafe acessando o JSON - [Download](https://github.com/BrunoWuo/CoffeeApp/archive/refs/heads/06TelaHomeCardJSON.zip)
 
   
 
