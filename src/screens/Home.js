@@ -5,15 +5,18 @@ import {
   TouchableOpacity,
   ScrollView,
   FlatList,
+  
 } from "react-native";
 import CardCaffee from "../components/CardCaffee";
 
 import tiposCafes from "../data/dbcafe";
 
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Home({ navigation }) {
   return (
     <ScrollView style={styles.container}>
+<SafeAreaView>
       <View style={styles.caixaTitulo}>
         <Text style={styles.Titulo}> Escolha o seu Café </Text>
       </View>
@@ -30,6 +33,7 @@ export default function Home({ navigation }) {
           )}
         />
       </View>
+      </SafeAreaView>
     </ScrollView>
   );
 }

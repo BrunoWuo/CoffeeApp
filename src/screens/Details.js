@@ -7,11 +7,12 @@ import {
   ImageBackground,
 } from "react-native";
 import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Details({ route }) {
   const { escolha } = route.params;
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
      
         <View style={styles.container1}>
         <ImageBackground
@@ -19,13 +20,13 @@ export default function Details({ route }) {
         style={styles.fundo}
       >
           <View style={styles.titfle}>
-            <TouchableOpacity onPress={() => navigation.navigate("goBack")}>
+            {/* <TouchableOpacity onPress={() => navigation.navigate("goBack")}>
               <Image
                 style={styles.flecha}
                 source={require("../../assets/img/flecha2.png")}
               />
-            </TouchableOpacity>
-            <Text style={styles.titulo}> {escolha.titulo} </Text>
+            </TouchableOpacity> */}
+            <Text style={styles.tituloTopo}> {escolha.titulo} </Text>
           </View>
           <View style={styles.caixaproduto}>
             <Image source={{ uri: escolha.imagem }} style={styles.produto} />
@@ -61,7 +62,7 @@ export default function Details({ route }) {
           </View>
         </View>
       
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
   fundo: {
     flex: 1,
     resizeMode: "center",
-    justifyContent: "center",
+    
     width:"auto",
     height:"auto"
   },
@@ -93,12 +94,17 @@ const styles = StyleSheet.create({
   titfle: {
     
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "space-around",
+    
   },
-  caixaTitulo: {
+ 
+  tituloTopo: {
+    color: "#000000",
+    fontSize: 30,
+    fontWeight: "700",
     paddingTop: 25,
-    paddingStart: 15,
   },
+
   titulo: {
     color: "#000000",
     fontSize: 22,
@@ -115,11 +121,11 @@ const styles = StyleSheet.create({
   caixaproduto: {
     alignItems: "center",
     justifyContent: "center",
-    padding: 50,
+    paddingTop: 100,
   },
   produto: {
-    width: 65,
-    height: 65,
+    width: 100,
+    height: 100,
     resizeMode: "contain",
   },
   caixainfo: {
@@ -143,7 +149,7 @@ const styles = StyleSheet.create({
   },
   produtot: {
     width: 40,
-    height: 40,
+    height: 75,
     resizeMode: "contain",
   },
   tittam: {
@@ -152,8 +158,8 @@ const styles = StyleSheet.create({
   },
   caixabotao: {
     alignItems: "center",
-    marginVertical:10
-  },
+    marginVertical:50,
+    },
   btn: {
     backgroundColor: "#B98875",
     borderRadius: 41,
