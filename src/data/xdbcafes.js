@@ -1,0 +1,51 @@
+export const tiposCafes = [
+    {
+      id: '1',
+      titulo: 'Espresso',
+      descricao: 'O Espresso é um café italiano tradicional, preparado sob alta pressão, resultando em uma bebida encorpada, com sabor intenso e uma crema rica na superfície.',
+      ingredientes: ['Café moído', 'Água quente sob pressão'],
+      preco: 10.90,
+      imagem:"https://raw.githubusercontent.com/BrunoWuo/Repo-Images/refs/heads/main/img-coffes/espresso.png",
+    },
+    {
+      id: '2',
+      titulo: 'Cappuccino',
+      descricao: 'O Cappuccino é feito com uma dose de espresso, leite vaporizado e espuma de leite. Tem sabor equilibrado e textura cremosa, ideal para quem prefere um café mais suave.',
+      ingredientes: ['Espresso', 'Leite vaporizado', 'Espuma de leite'],
+      preco: 17.90,
+      imagem:"https://raw.githubusercontent.com/BrunoWuo/Repo-Images/refs/heads/main/img-coffes/cappuccino.png",
+    },
+    {
+      id: '3',
+      titulo: 'Latte',
+      descricao: 'O Latte, ou Caffè Latte, leva uma dose de espresso e uma grande quantidade de leite vaporizado. Seu sabor é leve e suave, perfeito para iniciantes no mundo do café.',
+      ingredientes: ['Espresso', 'Leite vaporizado', 'Espuma fina de leite'],
+      preco: 16.90,
+      imagem:"https://raw.githubusercontent.com/BrunoWuo/Repo-Images/refs/heads/main/img-coffes/latte.png",
+    },
+    {
+      id: '4',
+      titulo: 'Mocha',
+      descricao: 'O Mocha é uma deliciosa combinação de espresso, chocolate e leite vaporizado. É ideal para quem gosta de café com um toque doce e achocolatado.',
+      ingredientes: ['Espresso', 'Chocolate', 'Leite vaporizado', 'Chantilly (opcional)'],
+      preco: 12.90,
+      imagem:"https://raw.githubusercontent.com/BrunoWuo/Repo-Images/refs/heads/main/img-coffes/mocha.png",
+    },
+    {
+      id: '5',
+      titulo: 'Macchiato',
+      descricao: 'O Macchiato é um espresso “manchado” com um pouco de leite vaporizado. Possui sabor forte com um leve toque cremoso, mantendo a intensidade do café.',
+      ingredientes: ['Espresso', 'Pouca espuma de leite'],
+      preco: 13.90,
+      imagem:"https://raw.githubusercontent.com/BrunoWuo/Repo-Images/refs/heads/main/img-coffes/macchiato.png",
+    },
+    {
+      id: '6',
+      titulo: 'Affogato',
+      descricao: 'O Affogato é uma sobremesa italiana feita com uma bola de sorvete de baunilha “afogada” em uma dose quente de espresso. Combina o quente com o gelado de forma irresistível.',
+      ingredientes: ['Espresso', 'Sorvete de baunilha'],
+      preco: 19.90,
+      imagem: "https://github.com/BrunoWuo/Repo-Images/blob/main/img-coffes/affogato.png",
+    },
+  ];
+  
